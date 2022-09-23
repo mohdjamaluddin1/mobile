@@ -1,0 +1,147 @@
+.main-wrapper{
+	background: #000;
+    border-radius: 45px;
+    max-width: 350px;
+    margin: auto;
+    padding: 10px 15px;
+}
+.white{
+	color: white;
+}
+.search{
+	background: #7530fc;
+    padding: 7px 9px 4px 11px;
+    border-radius: 50%;
+    font-size: 15px;
+    color: #fff;
+}
+.bg-badge{
+	background: #353636;
+    border-radius: 25px;
+    color: #ffffffe0;
+    padding: 6px 13px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    margin-right: 7px;
+}
+.heading{
+	font-size: 13px;
+    color: #ffffffc2;
+}
+.card-wrapper{
+	border-radius: 10px;
+	padding: 12px;
+}
+.card-wrapper img{
+	width: 30px;
+}
+.card-wrapper img.siren{
+	transform: rotate(45deg);
+}
+.card-wrapper h5{
+	font-size: 15px;
+    margin-top: 40px;
+    line-height: 1.1em;
+    font-weight: 800;
+}
+.card-wrapper a{
+	text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+}
+.bg-color-dragon{
+	background: #c1fde7;
+}
+.bg-color-knife{
+	background: #f2c8e1;
+	background-image: linear-gradient( 44deg , #c7c8f4, #f6d9d9);
+}
+.bg-color-siren{
+	background: #dbd3e7;
+	background-image: linear-gradient( 44deg , #c7c8f4, #f9f5e3);
+}
+.bg-color-moon{
+	background: #f4e9c7;
+}
+.card-wrapper a.green{
+	color: green;
+}
+.card-wrapper a.purple{
+	color: purple;
+}
+.card-wrapper a.orange{
+	color: orange;
+}
+.gray{
+	color: gray;
+}
+.f20{
+	font-size: 20px;
+}
+.line{
+	height: 4px;
+    width: 130px;
+    background: #fff;
+    margin: auto;
+}
+
+.icon-text img{
+	width: 20px;
+	transform: rotate(45deg);
+	margin-right: 10px;
+}
+.icon-text .bg-badge{
+	width: 150px;
+	margin: auto;
+}
+.image-text{
+	position: relative;
+    background-image: url(img/endgame.jpg);
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+    background-position: center;
+    animation: change 9s 3s 1;
+}
+
+@keyframes change{
+	from {background-image: url(img/endgame.jpg);}
+  to {background-image: url(img/strange.webp);}
+  
+}
+.image-text h4{
+	position: absolute;
+    left: 35px;
+    bottom: -20px;
+    font-weight: 700;
+}
+.icon-icon .small{
+	background: #353636;
+    border-radius: 50%;
+    padding: 17px 23px 26px 14px;
+    color: #fff;
+    font-size: 10px;
+    width: 3px;
+    height: 7px;
+    margin-top: 14px;
+}
+.icon-icon .medium{
+	background: #353636;
+    border-radius: 50%;
+    padding: 10px 12px;
+    color: #fff;
+    font-size: 18px;
+    margin: 10px;
+}
+.icon-icon .large{
+	background: #fff;
+    border-radius: 50%;
+    padding: 17px 22px;
+    color: #353636;
+    font-size: 22px;
+}
+.d-first{
+	transition-property: all;
+    transition-duration: 10s;
+    display: none;
+}
